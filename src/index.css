@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@300;400;500;600;700&family=Noto+Nastaliq+Urdu:wght@400;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Scheherazade+New:wght@400;700&family=Lateef:wght@200;300;400;500;600;700;800&family=Reem+Kufi:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --font-amiri: "Amiri", serif;
+  --font-nastaliq: "Noto Nastaliq Urdu", serif;
+  --font-scheherazade: "Scheherazade New", serif;
+  --font-lateef: "Lateef", serif;
+  --font-kufi: "Reem Kufi", sans-serif;
+  --font-playfair: "Playfair Display", serif;
+  --font-inter: "Inter", sans-serif;
+}
+
+body {
+  background-color: #f5f5f0;
+  color: #1a1a1a;
+}
+
+.arabic-text {
+  font-family: var(--font-amiri);
+  direction: rtl;
+  line-height: 2.5;
+}
+
+.uthmani-script {
+  font-family: var(--font-amiri);
+}
