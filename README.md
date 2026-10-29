@@ -5,7 +5,7 @@
 
 This contains everything you need to run your app locally.
 
-View your app in AI Studio: https://ai.darsenizami.net/quran-reader
+View your app in AI Studio: https://darsenizami.net/
 
 ## Run Locally
 
